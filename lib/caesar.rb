@@ -9,7 +9,5 @@ def caesar_cipher(sentence, offset)
       result = result + c.chr
     end
   end
-  puts result
+  result
 end
-
-caesar_cipher("What a string!", 5)
